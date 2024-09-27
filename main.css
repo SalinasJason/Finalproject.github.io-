@@ -173,9 +173,24 @@ footer h4 {
     font-weight: 600;
 }
 
+/* About us CSS content */ 
+
 .about-us {
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
+}
+
+
+/* Contact us CSS content */
+
+.location {
+    width: 80%;
+    margin: auto;
+    padding: 80px;
+}
+
+.location iframe {
+    width: 100%;
 }

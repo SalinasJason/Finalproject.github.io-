@@ -265,20 +265,46 @@ input[type=text], select, textarea {
 
 
 /* Product section */
+
+.products {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
+    max-width: 500px;
+    margin: 10px 200px;
+    text-align: center;
+    font-family: arial; 
+    float: left;
+  }
+
+  .card-2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: 10px 200px;
+    text-align: center;
+    font-family: arial;
+    float: right;
+  }
+  
+  .card-3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 510px;
     margin: auto;
     text-align: center;
     font-family: arial; 
   }
-  
+
   .price {
     color: grey;
     font-size: 22px;
   }
   
-  .card button {
+  .card button, .card-2 button, .card-3 button {
     border: none;
     outline: 0;
     padding: 12px;
@@ -290,6 +316,6 @@ input[type=text], select, textarea {
     font-size: 18px;
   }
   
-  .card button:hover {
+  .card button:hover,  .card-2 button:hover,  .card-3 button:hover  {
     opacity: 0.7;
   }

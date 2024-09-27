@@ -173,8 +173,7 @@ footer h4 {
     font-weight: 600;
 }
 
-/* About us CSS content */ 
-
+/* About us section */ 
 .about-us {
     width: 80%;
     margin: auto;
@@ -183,8 +182,7 @@ footer h4 {
 }
 
 
-/* Contact us CSS content */
-
+/* Contact us section */
 .location {
     width: 80%;
     margin: auto;
@@ -230,20 +228,17 @@ footer h4 {
 }
 
 /* Form CSS content */
-
-/* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid gray; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid gray; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical; 
   }
   
-  /* Style the submit button with a specific background color etc */
   input[type=submit] {
     background-color: orange;
     color: white;
@@ -253,12 +248,10 @@ input[type=text], select, textarea {
     cursor: pointer;
   }
   
-  /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
     background-color: gray;
   }
   
-  /* Add a background color and some padding around the form */
   .container {
     border-radius: 5px;
     
@@ -269,3 +262,34 @@ input[type=text], select, textarea {
     height: 500px;
     width: 100%;
 }
+
+
+/* Product section */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial; 
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }

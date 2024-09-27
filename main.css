@@ -172,3 +172,10 @@ footer h4 {
     margin-top: 20px;
     font-weight: 600;
 }
+
+.about-us {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}

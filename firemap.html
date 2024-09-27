@@ -19,7 +19,7 @@
                         <div class="dropdown">
                             <button class="dropbtn">MORE</button>
                             <div class="dropdown-content">
-                                <a href="#">Products</a>
+                                <a href="products.html">Products</a>
                                 <a href="#">Donate</a>
                                 <a href="#">Wildfire Map</a>
                                 <a href="#">Safety Information</a>
@@ -36,6 +36,41 @@
             </div>
         </section>
     </header>
+    <main>
+        <h1>Current Wildfire Activity</h1>
+        <div id="map"></div>
+        <script src="https://js.arcgis.com/4.21/"></script>
+        <script>
+            require([
+                "esri/Map",
+                "esri/views/MapView",
+                "esri/layers/FeatureLayer"
+            ], function(Map, MapView, FeatureLayer) {
+                var map = new Map({
+                    basemap: "topo-vector" // Change basemap here
+                });
+
+                var view = new MapView({
+                    container: "map",
+                    map: map,
+                    center: [-120, 40], // Longitude, latitude
+                    zoom: 6
+                });
+
+                var featureLayer = new FeatureLayer({
+                    url: "https://services.arcgis.com/example/arcgis/rest/services/Wildfire/FeatureServer/0",
+                    renderer: {
+                        type: "simple",
+                        symbol: {
+                            type: "simple-marker",
+                            color: "red",
+                            size: "8px"
+                        }
+                    },
+                });
+            });
+        </script>
+    </main>
     <footer>
         <p>&copy; Copyright 2024 Jason Salinas Productions | <a href="https://github.com/SalinasJason" target="_blank">Github</a></p>
     </footer> 

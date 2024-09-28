@@ -181,6 +181,12 @@ footer h4 {
     padding-top: 100px;
 }
 
+.about-us p {
+    width: 45%;
+    text-align: center;
+    margin: auto;
+}
+
 
 /* Contact us section */
 .location {

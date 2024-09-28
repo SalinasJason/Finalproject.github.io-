@@ -189,6 +189,12 @@ footer h4 {
 
 
 /* Contact us section */
+#map {
+    height: 500px;
+    width: 100%;
+}
+
+
 .location {
     width: 80%;
     margin: auto;
@@ -233,7 +239,8 @@ footer h4 {
     font-weight: 400;
 }
 
-/* Form CSS content */
+
+/* Contact us form */
 input[type=text], select, textarea {
     width: 100%; 
     padding: 12px; 
@@ -260,13 +267,10 @@ input[type=submit]:hover {
   
 .container {
     border-radius: 5px;
+    background-color: #f2f2f2;
     padding: 20px;
+    width: 50%;
   }
-
-#map {
-    height: 500px;
-    width: 100%;
-}
 
 
 /* Product section */

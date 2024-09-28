@@ -424,3 +424,32 @@ label {
 }
 
 /* Prevention section */
+.prevention1 h1{
+    width: 50%;
+    margin: 10px;
+    margin-left: 4%;
+    text-align: left;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+.prevention1 p {
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-right: 40%;
+    margin-left: 3%;
+    font-size: 16px;
+    line-height: 26px;
+   
+}
+
+.prevention1 img {
+    float: right;
+    width: 20%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 10%;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+

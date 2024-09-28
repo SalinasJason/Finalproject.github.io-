@@ -414,3 +414,12 @@ label {
     font-size: 16px;
     line-height: 26px;
 }
+
+/* Gallery section */
+.gallery img {
+    width: 30%;
+    height: auto;
+    margin: 3px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+

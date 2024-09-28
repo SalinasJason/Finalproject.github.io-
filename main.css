@@ -64,13 +64,13 @@ nav {
   }
   
   /* The container <div> - needed to position the dropdown content */
-  .dropdown {
+.dropdown {
     position: relative;
     display: inline-block;
   }
   
   /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
@@ -80,7 +80,7 @@ nav {
   }
   
   /* Links inside the dropdown */
-  .dropdown-content a {
+.dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
@@ -239,7 +239,7 @@ input[type=text], select, textarea {
     resize: vertical; 
   }
   
-  input[type=submit] {
+input[type=submit] {
     background-color: orange;
     color: white;
     padding: 12px 20px;
@@ -248,17 +248,16 @@ input[type=text], select, textarea {
     cursor: pointer;
   }
   
-  input[type=submit]:hover {
+input[type=submit]:hover {
     background-color: gray;
   }
   
-  .container {
+.container {
     border-radius: 5px;
-    
     padding: 20px;
   }
 
-  #map {
+#map {
     height: 500px;
     width: 100%;
 }
@@ -283,7 +282,7 @@ input[type=text], select, textarea {
     float: left;
   }
 
-  .card-2 {
+.card-2 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 500px;
     margin: 10px 200px;
@@ -292,7 +291,7 @@ input[type=text], select, textarea {
     float: right;
   }
   
-  .card-3 {
+.card-3 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 510px;
     margin: auto;
@@ -300,12 +299,12 @@ input[type=text], select, textarea {
     font-family: arial; 
   }
 
-  .price {
+.price {
     color: grey;
     font-size: 22px;
   }
   
-  .card button, .card-2 button, .card-3 button {
+.card button, .card-2 button, .card-3 button {
     border: none;
     outline: 0;
     padding: 12px;
@@ -317,15 +316,71 @@ input[type=text], select, textarea {
     font-size: 18px;
   }
   
-  .card button:hover,  .card-2 button:hover,  .card-3 button:hover  {
+.card button:hover,  .card-2 button:hover,  .card-3 button:hover  {
     opacity: 0.7;
   }
 
   /* Donate section */
-  .donate {
+.donate {
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 2%;
     padding-bottom: 3%;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container2 {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
 }

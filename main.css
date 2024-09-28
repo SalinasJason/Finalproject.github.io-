@@ -102,7 +102,6 @@ nav {
     position: absolute;
     top: 50%;
     left: 5%;
-    transition: translate(-50%,-50%);
     text-align: center;
 }
 

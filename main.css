@@ -320,3 +320,12 @@ input[type=text], select, textarea {
   .card button:hover,  .card-2 button:hover,  .card-3 button:hover  {
     opacity: 0.7;
   }
+
+  /* Donate section */
+  .donate {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
